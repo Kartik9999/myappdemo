@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: Maps.GoogleMapsTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 102.991 sec <<< FAILURE!
+QAAgile(Maps.GoogleMapsTest)  Time elapsed: 26.302 sec  <<< FAILURE!
+java.lang.AssertionError: did not expect to find [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at Maps.GoogleMapsTest.QAAgile(GoogleMapsTest.java:112)
+
